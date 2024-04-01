@@ -1,0 +1,47 @@
+@media (min-width: 920px) {
+    .main {
+       display: flex; 
+       max-width: 1200px;
+    }
+
+    .wrapper {
+        display: grid;
+        padding: 5rem;
+     
+    }
+
+    
+
+    .mobil-img {
+        display: none;
+    }
+
+    .desktop-img {
+        display: block;
+        object-fit: cover;
+        opacity: 0.5;
+       
+    }
+
+    .bg-image {
+        background-color: var(--accent);
+        display: flex;
+        order: 2;
+    }
+
+    .infos {
+        display: flex;
+        justify-content: space-between;
+       
+    }
+
+    p {
+        text-align: left;
+    }
+
+    .infos {
+        text-align: left;
+    }
+
+  
+}
